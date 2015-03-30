@@ -14,14 +14,17 @@ class GYTestViewController: GYSegmentScrollViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
         
     }
 
+
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        self.view.layoutMargins.top = 64
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -31,14 +34,6 @@ class GYTestViewController: GYSegmentScrollViewController {
         return 3
     }
     
-    override func segmentScrollViewController(segmentScrollViewController: GYSegmentScrollViewController, containerViewOfSegmentIndex: Int) -> UIView {
-        return UITableView()
-    }
-    
-    override func segmentScrollViewController(segmentScrollViewController: GYSegmentScrollViewController, titleOfSegmentIndex: Int) -> String {
-        return "123"
-    }
-    
     override func segmentScrollViewController(segmentScollViewController: GYSegmentScrollViewController, didScrollToIndex index: Int) {
         println("index:\(index)")
     }
@@ -46,6 +41,5 @@ class GYTestViewController: GYSegmentScrollViewController {
     override func segmentScrollViewController(segmentScollViewController: GYSegmentScrollViewController, willScrollToIndex index: Int) {
         println("index:\(index)")
     }
-    
     
 }

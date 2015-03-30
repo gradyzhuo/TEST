@@ -14,8 +14,10 @@
 		79093F141AC545D200D4AFCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79093F131AC545D200D4AFCB /* Images.xcassets */; };
 		79093F171AC545D200D4AFCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79093F151AC545D200D4AFCB /* LaunchScreen.xib */; };
 		79093F231AC545D200D4AFCB /* TESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79093F221AC545D200D4AFCB /* TESTTests.swift */; };
+		791F71901AC91B7500CCCA3A /* GYSegmentViewAdderSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791F718F1AC91B7500CCCA3A /* GYSegmentViewAdderSegue.swift */; };
 		79B305B31AC56143004B5E47 /* GYSegmentScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B305B21AC56143004B5E47 /* GYSegmentScrollViewController.swift */; };
 		79CA602F1AC8618900E925FF /* GYTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CA602E1AC8618900E925FF /* GYTestViewController.swift */; };
+		79D690431AC92FA600EED758 /* GYTest2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D690421AC92FA600EED758 /* GYTest2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,10 @@
 		79093F1C1AC545D200D4AFCB /* TESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79093F211AC545D200D4AFCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79093F221AC545D200D4AFCB /* TESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TESTTests.swift; sourceTree = "<group>"; };
+		791F718F1AC91B7500CCCA3A /* GYSegmentViewAdderSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSegmentViewAdderSegue.swift; sourceTree = "<group>"; };
 		79B305B21AC56143004B5E47 /* GYSegmentScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYSegmentScrollViewController.swift; sourceTree = "<group>"; };
 		79CA602E1AC8618900E925FF /* GYTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTestViewController.swift; sourceTree = "<group>"; };
+		79D690421AC92FA600EED758 /* GYTest2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTest2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +91,13 @@
 				79093F0E1AC545D200D4AFCB /* ViewController.swift */,
 				79093F101AC545D200D4AFCB /* Main.storyboard */,
 				79B305B21AC56143004B5E47 /* GYSegmentScrollViewController.swift */,
+				791F718F1AC91B7500CCCA3A /* GYSegmentViewAdderSegue.swift */,
 				79CA602E1AC8618900E925FF /* GYTestViewController.swift */,
 				79093F131AC545D200D4AFCB /* Images.xcassets */,
 				79093F151AC545D200D4AFCB /* LaunchScreen.xib */,
 				79093F0B1AC545D200D4AFCB /* TEST.xcdatamodeld */,
 				79093F071AC545D200D4AFCB /* Supporting Files */,
+				79D690421AC92FA600EED758 /* GYTest2ViewController.swift */,
 			);
 			path = TEST;
 			sourceTree = "<group>";
@@ -224,7 +230,9 @@
 				79CA602F1AC8618900E925FF /* GYTestViewController.swift in Sources */,
 				79093F0F1AC545D200D4AFCB /* ViewController.swift in Sources */,
 				79093F0A1AC545D200D4AFCB /* AppDelegate.swift in Sources */,
+				791F71901AC91B7500CCCA3A /* GYSegmentViewAdderSegue.swift in Sources */,
 				79093F0D1AC545D200D4AFCB /* TEST.xcdatamodeld in Sources */,
+				79D690431AC92FA600EED758 /* GYTest2ViewController.swift in Sources */,
 				79B305B31AC56143004B5E47 /* GYSegmentScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
