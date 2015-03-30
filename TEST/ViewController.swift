@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         self.scrollView.pagingEnabled = true
         self.scrollView.contentSize = CGSize(width: UIScreen.mainScreen().bounds.width*2, height: UIScreen.mainScreen().bounds.height)
+        
     }
 
     override func didReceiveMemoryWarning() {
